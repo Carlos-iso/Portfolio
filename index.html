@@ -1,105 +1,218 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Carlos Siqueira - Web Developer</title>
+		<link
+			rel="shortcut icon"
+			href="src/icons/favicon.svg"
+			type="image/x-icon"
+		/>
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/style-responcive.css" />
+	</head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Carlos Siqueira - Web Developer</title>
-  <link rel="shortcut icon" href="src/img/favicon.svg" type="image/x-icon">
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/style-responcive.css" />
-</head>
+	<body>
+		<header id="header">
+			<div class="logo">
+				<img src="src/icons/logo.svg" />
+			</div>
+			<nav class="menu-nav">
+				<button
+					aria-label="Abrir Menu"
+					class="menu-responcive"
+					aria-haspopup="true"
+					aria-controls="menu"
+					aria-expanded="false"
+				>
+					<img src="src/icons/line.svg" class="line1" />
+					<img src="src/icons/line.svg" class="line2" />
+					<img src="src/icons/line.svg" class="line3" />
+				</button>
+				<ul class="menu" role="menu">
+					<a class="opcao-home" href="#header">
+						<img src="src/icons/home.svg" />Home
+					</a>
+					<a class="opcao-contato" href="#contact">
+						<img src="src/icons/chat.svg" />Contato
+					</a>
+					<a class="opcao-trabalhos" href="#projects">
+						<img src="src/icons/document.svg" /> Trabalhos
+					</a>
+				</ul>
+			</nav>
+		</header>
+		<div class="space"></div>
+		<main>
+			<div class="brave-me">
+				<img src="src/img/perfil.png" />
+				<p>
+					Me chamo Carlos Manuel, tenho 23 anos e sou desenvolvedor web e
+					mobile. Atualmente estou focado em desenvolver projetos próprios e
+					construir um portfólio sólido, explorando tecnologias como
+					JavaScript/TypeScript, Node.js e React Native.
+				</p>
+			</div>
+			<img class="bubble-img" src="src/icons/bubble.svg" alt="Bolha Detalhe" />
+			<div class="inf-me">
+				<h1>Sobre Mim</h1>
+				<br />
+				<p>
+					Me chamo Carlos Manuel, tenho 23 anos e sou desenvolvedor web e
+					mobile. Minha jornada no desenvolvimento começou de forma autodidata
+					em 2021, e desde então venho construindo projetos próprios para
+					aprofundar meus conhecimentos e desenvolver soluções completas.
+				</p>
+				<br />
+				<p>
+					Meu principal foco está no desenvolvimento de aplicações completas,
+					trabalhando tanto no back-end quanto no front-end. Tenho grande
+					interesse em arquitetura de sistemas, lógica de programação e na
+					construção de aplicações escaláveis.
+				</p>
+				<br />
+				<p>
+					Ao longo da minha trajetória venho desenvolvendo diferentes projetos,
+					explorando tecnologias modernas do ecossistema JavaScript. Trabalho
+					principalmente com JavaScript, TypeScript, Node.js, React e React
+					Native, desenvolvendo APIs, aplicações web e aplicativos mobile.
+				</p>
+				<br />
+				<p>
+					Grande parte da minha evolução vem da prática constante através da
+					criação de projetos próprios. Gosto de transformar ideias em sistemas
+					funcionais, estruturando desde a lógica do back-end até a experiência
+					final da aplicação.
+				</p>
+				<br />
+				<p>
+					Meu processo de aprendizado é contínuo. Estou sempre estudando novas
+					tecnologias, padrões de desenvolvimento e formas de melhorar a
+					qualidade das soluções que construo.
+				</p>
+				<br />
+				<p>
+					Em resumo, sou um desenvolvedor movido por curiosidade, aprendizado
+					constante e pela vontade de criar soluções úteis. Estou sempre aberto
+					a novos desafios e oportunidades que permitam evoluir tecnicamente e
+					construir projetos cada vez mais completos.
+				</p>
+				<br />
+				<h1 id="contact">Para me contatar:</h1>
+				<p>
+					E-mail: <a href="">carlosdev2022@gmail.com</a><br />
+					GitHub:
+					<a href="https://github.com/Carlos-iso">github.com/Carlos-iso</a
+					><br />
+					Instagram: <a href="">@carlos.sqr</a><br />
+					Behance: <a href="">@carloscoding.html___</a>
+				</p>
+				<br />
+				<p class="a">Vamos unir forças para alcançar o extraordinário!</p>
+			</div>
+			<section id="skills" class="skills">
+				<h1>Habilidades:</h1>
+				<ul>
+					<li>
+						<img src="src/icons/javascript.svg" alt="Ícone JavaScript" />
+						JavaScript
+					</li>
+					<li>
+						<img src="src/icons/typescript.svg" alt="Ícone TypeScript" />
+						TypeScript
+					</li>
+					<li>
+						<img src="src/icons/nodejs.svg" alt="Ícone Node.js" />
+						Node.js
+					</li>
+					<li>
+						<img src="src/icons/express.svg" alt="Ícone Express" />
+						Express
+					</li>
+					<li>
+						<img src="src/icons/react.svg" alt="Ícone React" />
+						React
+					</li>
+					<li>
+						<img src="src/icons/vue.svg" alt="Ícone Vue.js" />
+						Vue.js
+					</li>
+					<li>
+						<img src="src/icons/mongodb.svg" alt="Ícone MongoDB" />
+						MongoDB
+					</li>
+					<li>
+						<img src="src/icons/firebase.svg" alt="Ícone Firebase" />
+						Firebase
+					</li>
+					<li>
+						<img src="src/icons/git.svg" alt="Ícone Git" />
+						Git
+					</li>
+				</ul>
+			</section>
+			<section id="projects" class="projects">
+				<h1>Trabalhos:</h1>
+				<div class="iframe">
+					<div class="iframe-item">
+						<a
+							href="https://cutelariacampos.netlify.app"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							Ver Projeto
+						</a>
+						<img src="./src/img/CutelariaCampos.png" alt="Preview do Projeto" />
+					</div>
+					<div class="iframe-item">
+						<a
+							href="https://tonydecor.netlify.app"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							Ver Projeto
+						</a>
+						<img src="./src/img/TonnyDecor.png" alt="Preview do Projeto" />
+					</div>
+					<div class="iframe-item">
+						<a
+							href="https://mamae-social.netlify.app"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							Ver Projeto
+						</a>
+						<img src="./src/img/MommyBee.png" alt="Preview do Projeto" />
+					</div>
+					<div class="iframe-item">
+						<a
+							href="https://adroad-outdoor.netlify.app"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							Ver Projeto
+						</a>
+						<img src="./src/img/AdRoadOutdoor.png" alt="Preview do Projeto" />
+					</div>
+					<div class="iframe-item">
+						<a
+							href="https://barber-p1.netlify.app"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							Ver Projeto
+						</a>
+						<img src="./src/img/Barber.png" alt="Preview do Projeto" />
+					</div>
+				</div>
+			</section>
+		</main>
 
-<body>
-  <header id="header">
-    <div class="logo">
-      <img src="src/img/logo.svg">
-    </div>
-    <nav class="menu-nav">
-      <button aria-label="Abrir Menu" class="menu-responcive" aria-haspopup="true" aria-controls="menu"
-        aria-expanded="false">
-        <img src="src/icons/line.svg" class="line1">
-        <img src="src/icons/line.svg" class="line2">
-        <img src="src/icons/line.svg" class="line3">
-      </button>
-      <ul class="menu" role="menu">
-        <a class="opcao-home" href="#header">
-          <img src="src/icons/home.svg" />Home
-        </a>
-        <a class="opcao-contato" href="#contact">
-          <img src="src/icons/chat.svg" />Contato
-        </a>
-        <a class="opcao-trabalhos" href="#projects">
-          <img src="src/icons/document.svg" /> Trabalhos
-        </a>
-      </ul>
-    </nav>
-  </header>
-  <div class="space"></div>
-  <main>
-    <div class="brave-me">
-      <img src="src/img/perfil.png" />
-      <p>
-        Me chamo Carlos Manuel, tenho 20 anos e estou começando no
-        desonvolvimento web e atualmente estou criando um bom portfólio.
-      </p>
-    </div>
-    <img class="bubble-img" src="src/icons/bubble.svg" alt="Bolha Detalhe">
-    <div class="inf-me">
-      <h1>Sobre Mim</h1>
-      <p>Me chamo Carlos Manuel, um entusiasta desenvolvedor web de 21 anos, que está começando no desenvolvimento Web.
-        Concentro meus esforços no Back-end, enquanto nutro um profundo interesse pelo design e seus vieses cognitivos.
-        Desde quando comecei a estudar focando em desenvolvimento Web, aprendi bastante coisa sobre o básico de HTML e
-        CSS. Minha jornada até aqui tem sido repleta de aprendizado autodidata e conquistas significativas.
-      </p>
-      <p>Atualmente, estou mergulhado em um projeto empolgante: a criação de uma loja online que lembra o estilo do
-        Mercado Livre, com um toque pessoal. Este projeto gira em torno da venda de facas personalizadas, algo próximo
-        ao meu coração, pois serve a um cliente querido que é membro de uma família de cuteleiros. Minha atuação nesse
-        projeto engloba a totalidade do sistema de vendas online. Liderei a concepção do design, que, embora em
-        constante aprimoramento, já reflete minha paixão por design e vieses cognitivos.
-      </p>
-      <p>Sobre uma linguagem de programação e lógica de programação em si, estou aprendendo javascript. Minha
-        flexibilidade é uma das minhas maiores virtudes. Embora minha experiência tenha uma base sólida no Back-end,
-        estou aberto a diversificar minha trajetória. Encaro desafios com empolgação, vendo neles oportunidades para
-        aprender e crescer. Minha jornada de aprendizado, que comecei por conta própria em 2021, foi repleta de
-        histórias enriquecedoras.
-      </p>
-      <p>Minha abordagem de autoaprendizagem foi complementada por cursos que fortaleceram minha lógica de programação.
-      </p>
-      <p>Um grande marco no meu percurso é o sistema que desenvolvo, e embora ainda não esteja completamente funcional,
-        é acessível em <a
-          href="https://cutelariacampos.carloscoding.dev.br">https://cutelariacampos.carloscoding.dev.br</a>. Ele
-        representa a
-        materialização do meu empenho e habilidades, evidenciando minha capacidade de transformar conceitos em
-        realidade.
-      </p>
-      <p>Em resumo, sou um desenvolvedor web em ascensão, incansável na busca pelo conhecimento, apaixonado por design e
-        impulsionado por desafios. Se você procura alguém que funde habilidades de Back-end, Front-end e design, estou
-        pronto para contribuir e criar soluções excepcionais.
-      </p>
-      <p id="contact">Para me contatar:</p>
-      <p>E-mail: <a href="">carlosdev2022@gmail.com</a><br>
-        GitHub: <a href="https://github.com/Carlos-iso">https://github.com/Carlos-iso</a><br>
-        Instagram: <a href="">@carlos.sqr</a><br>
-        Behance: <a href="">@carloscoding.html___</a>
-      </p>
-      <p class="a">Vamos unir forças para alcançar o extraordinário!</p>
-    </div>
+		<footer></footer>
 
-    <section id="projects" class="projects">
-      <h1>Trabalhos:</h1>
-      <div class="iframe">
-        <iframe src="https://cutelariacampos.carloscoding.dev.br"></iframe>
-        <iframe src="https://cutelariacampos-cadastro.carloscoding.dev.br/"></iframe>
-      </div>
-    </section>
-  </main>
-
-  <footer></footer>
-
-  <script src="javascript/menu-tuggle.js"></script>
-  <script src="javascript/scroll-bubble.js"></script>
-</body>
-
+		<script src="javascript/menu-tuggle.js"></script>
+		<script src="javascript/scroll-bubble.js"></script>
+	</body>
 </html>
