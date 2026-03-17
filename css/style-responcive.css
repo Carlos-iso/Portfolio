@@ -40,7 +40,7 @@
         height: 0px;
         position: absolute;
         background-color: var(--cor4);
-        top: 60px;
+        top: 68px;
         right: 0px;
         margin: 0px;
         z-index: 1000;
@@ -62,7 +62,7 @@
     }
 
     .menu-nav.open .menu a {
-        padding: 8px 24px 24px 24px;
+        padding: 24px;
     }
 
     .menu-nav.open .menu-responcive .line1{
