@@ -46,6 +46,10 @@ header {
 	align-items: center;
 }
 
+.logo {
+	cursor: pointer;
+}
+
 .logo img {
 	margin: 0px 24px;
 }
